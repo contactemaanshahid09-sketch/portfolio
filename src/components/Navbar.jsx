@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import "./Navbar.css"; // You should create this CSS file or add styles accordingly
+//import "./Navbar.css"; 
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
