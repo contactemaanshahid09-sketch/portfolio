@@ -6,8 +6,8 @@ const projects = [
     title: "FlexiBuild – Smart Construction & Interior Design Platform",
     description:
       "Developed FlexiBuild, a construction and interior design platform where users can explore services, get design ideas, and purchase furniture seamlessly.",
-    laptopImg: "/images/project1-laptop.jpeg",
-    mobileImg: "/images/project1-mobile.jpeg",
+    laptopImg: "/portfolio/images/project1-laptop.jpeg",
+    mobileImg: "/portfolio/images/project1-mobile.jpeg",
     liveDemoLink: "https://github.com/contactemaanshahid09-sketch/android",
   },
   {
@@ -15,8 +15,8 @@ const projects = [
     title: "MindDrape – Blogging Web App with Firebase",
     description:
       "Developed MindDrape, a blogging web app using Firebase and JavaScript, featuring user authentication, category-wise browsing, and a responsive UI.",
-    laptopImg: "/images/project2-laptop.png",
-    mobileImg: "/images/project2-mobile.png",
+    laptopImg: "/portfolio/images/project2-laptop.png",
+    mobileImg: "/portfolio/images/project2-mobile.png",
     // liveDemoLink: "https://minddrape.example.com",
   },
   {
@@ -24,8 +24,8 @@ const projects = [
     title: "9T9 Solutions – One-Stop Digital Service Hub",
     description:
       "Developed 9T9 Solutions, a multi-service digital solutions platform offering web development, design, video editing, and e-commerce services with a responsive, user-friendly interface.",
-    laptopImg: "/images/project3-laptop.png",
-    mobileImg: "/images/project3-mobile.png",
+    laptopImg: "/portfolio/images/project3-laptop.png",
+    mobileImg: "/portfolio/images/project3-mobile.png",
     liveDemoLink: "https://9t9solutions.github.io/9t9solutions/",
   },
   {
@@ -33,8 +33,8 @@ const projects = [
     title: "Interactive Scrolling Experience",
     description:
       "Created a modern website with stunning scrolling effects, delivering an immersive and visually dynamic user journey.",
-    laptopImg: "/images/project4-laptop.png",
-    mobileImg: "/images/project4-mobile.png",
+    laptopImg: "/portfolio/images/project4-laptop.png",
+    mobileImg: "/portfolio/images/project4-mobile.png",
     // liveDemoLink: "https://scrollingexperience.example.com",
   },
   {
@@ -42,7 +42,7 @@ const projects = [
     title: "Unique Parallax Scrolling Website",
     description:
       "Developed a unique parallax scrolling website that blends motion and depth, offering a truly eye-catching and innovative browsing experience.",
-    videoSrc: "/videos/project5-demo.mp4",
+    videoSrc: "/portfolio/videos/project5-demo.mp4",
     mobileImg: null,
     // liveDemoLink: "https://parallaxscrolling.example.com",
   },
