@@ -21,10 +21,7 @@ export default function Hero() {
  </div>
       </div>
       <div className={`hero-image ${animate ? "animate-up-delay" : ""}`}>
-        <img
-          src="src/assets/images/hero-image.jpeg"
-          alt="Working man"
-        />
+        <img src="/images/hero-image.jpeg" alt="Hero" />
       </div>
     </section>
   );
