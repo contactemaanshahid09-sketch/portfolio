@@ -24,8 +24,8 @@ const projects = [
     title: "9T9 Solutions – One-Stop Digital Service Hub",
     description:
       "Developed 9T9 Solutions, a multi-service digital solutions platform offering web development, design, video editing, and e-commerce services with a responsive, user-friendly interface.",
-    laptopImg: "//images/project3-laptop.png",
-    mobileImg: "//project3-mobile.png",
+    laptopImg: "/images/project3-laptop.png",
+    mobileImg: "/images/project3-mobile.png",
     liveDemoLink: "https://9t9solutions.github.io/9t9solutions/",
   },
   {
