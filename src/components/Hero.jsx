@@ -10,7 +10,7 @@ export default function Hero() {
   return (
     <section className="hero">
       <div className={`hero-content ${animate ? "animate-up" : ""}`}>
-        <h1>Crafting User-Friendly Websites with Impactful Designs</h1>
+        <h1>User-Friendly. Impactful. Memorable.</h1>
         <p>
           Specialized in creating responsive web solutions
           with a strong focus on UI/UX

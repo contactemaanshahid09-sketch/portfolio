@@ -19,8 +19,6 @@ html {
   overflow-x: hidden;
 }
 
-
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -64,17 +62,17 @@ html {
 
 
 .navbar a {
-  text-decoration: none;   /* underline remove */
-  color: #333;             /* normal state color (black/dark gray) */
+  text-decoration: none;   
+  color: #333;             
   transition: color 0.3s;
 }
 
 .navbar a:hover {
-  color: #f07e36;          /* hover par orange */
+  color: #f07e36;         
 }
 
 .navbar a.active {
-  color: #f07e36;          /* click/active par orange */
+  color: #f07e36;          
 }
 
 
@@ -118,7 +116,114 @@ html {
   user-select: none;
 }
 
+/* Hide hamburger and mobile menu by default */
+.hamburger,
+.mobile-menu {
+  display: none;
+}
 
+/* Mobile styles for hamburger and menu */
+@media (max-width: 500px) {
+  .navbar {
+    /* position: static !important; */
+    padding: 9px 0;
+    box-shadow: 0 10px 20px rgb(0 0 0 / 0.08);
+    border-radius: 16px;
+  }
+
+  .nav-links,
+  .social-icons {
+    display: none !important;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    margin-left: auto;
+    width: 32px;
+    height: 28px;
+    justify-content: center;
+    z-index: 1201;
+  }
+  .hamburger span {
+    display: block;
+    height: 4px;
+    background: #f07e36;
+    width: 100%;
+    border-radius: 3px;
+    transition: all 0.4s;
+  }
+
+.mobile-menu {
+  position: absolute;
+  top: 56px; /* Adjust for navbar height */
+  right: 0;
+  left: 0;
+  margin: 0 10px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.11);
+  z-index: 1200;
+  display: none;
+  animation: menuAppear 0.28s;
+}
+ .mobile-menu.open {
+  display: block;
+}
+.nav-links-mobile {
+  list-style: none;
+  padding: 20px 0 15px 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  width: 100%;
+}
+
+  .nav-links-mobile li a {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.25s;
+  }
+  .nav-links-mobile li a:hover {
+    color: #f07e36;
+  }
+.social-icons-mobile {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  width: 100%;
+}
+}
+
+@keyframes menuAppear {
+  0% { opacity: 0; transform: scale(0.97);}
+  100% {opacity:1; transform:scale(1);}
+}
+
+
+@media (max-width: 400px) {
+  .logo {
+    font-size: 19px;
+    letter-spacing: 1px;
+    padding-right: 6px;
+  }
+  .hamburger {
+    width: 28px;
+    height: 25px;
+  }
+}
+
+
+
+/* ------------------------------------------------------ */
 
 /* Hero Section */
 
@@ -128,7 +233,7 @@ html {
 
 
 .hero {
-  margin-top: 120px; /* height of navbar + some padding */
+  margin-top: 100px; /* height of navbar + some padding */
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -229,6 +334,24 @@ html {
 }
 
 
+@media (max-width: 500px) {
+  .hero-buttons a,
+  .btn-primary,
+  .btn-secondary {
+    padding: 9px 19px !important;
+    font-size: 13px !important;
+    border-radius: 22px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero {
+    margin-top: 67px !important;    /* much smaller margin above hero */
+    padding-top: 32px !important;   /* less padding inside hero */
+    gap: 28px !important;           /* less gap between columns if needed */
+  }
+}
+
 
 
 /* -------------------------------------------------- */
@@ -328,6 +451,7 @@ html {
 @media (max-width: 600px) {
   .about-section {
     padding: 40px 10px;
+    padding-left: 30px;
     max-width: 95%;
   }
 
@@ -341,6 +465,23 @@ html {
     width: 100%;
   }
 }
+
+@media (max-width: 500px) {
+  .details-card { /* Name, Age, Email box */
+    padding: 14px 8px;
+    margin: 0 auto 12px auto;
+    max-width: 98%;
+    box-sizing: border-box;
+    word-break: break-all;
+  }
+
+  .details-card p, .details-card b {
+    font-size: 15px;
+    word-break: break-word;
+  }
+}
+  
+
 
 /* --------------------------------------------------- */
 
@@ -594,6 +735,9 @@ video.laptop-img {
   }
 }
 
+
+
+
 /* --------------------------------------------------- */
 
 .services-content {
@@ -665,6 +809,21 @@ video.laptop-img {
   .services-left {
     margin-bottom: 20px;    /* spacing below left content */
   }
+@media (max-width: 600px) {
+  .section-description {
+    padding: 0 14px;
+    margin-bottom: 28px;
+    font-size: 15px;
+    text-align: center; /* ya left, jaise chahte ho */
+  }
+  .services-large-title {
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-bottom: 12px; /* optional: for space below heading */
+    font-size: 19px;     /* optional: slightly smaller on mobile */
+  }
+}
+
 }
 
 /* ------------------------------------------- */
