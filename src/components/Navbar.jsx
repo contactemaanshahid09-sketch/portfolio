@@ -54,7 +54,7 @@ export default function Navbar() {
         <div className="social-icons">
           <a href="#"><FaFacebookF /></a>
           <a
-            href="https://www.linkedin.com/in/emaan-mehar-b84309360"
+            href="https://www.linkedin.com/in/emaan-mehar-b84309360"   
             target="_blank"
             rel="noopener noreferrer"
           >
