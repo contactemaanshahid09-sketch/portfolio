@@ -16,9 +16,9 @@ export default function Hero() {
           with a strong focus on UI/UX
         </p>
         <div className="hero-buttons">
-<a href="#portfolio" className="btn-primary">View my work</a>
-<a href="#contact" className="btn-secondary">Let's connect</a>
- </div>
+          <a href="#portfolio" className="btn-primary">View my work</a>
+          <a href="#contact" className="btn-secondary">Let's connect</a>
+        </div>
       </div>
       <div className={`hero-image ${animate ? "animate-up-delay" : ""}`}>
         <img src="/portfolio/images/hero-image.jpeg" alt="Hero" />

@@ -3,7 +3,6 @@ import React, { useEffect, useRef, useState } from "react";
 const services = [
   "Responsive Website Development",
   "Custom Web Applications",
-  "Blog & CMS Development",
   "E-Commerce Websites",
   "Modern Website & App UI Design",
   "User-Friendly Wireframes & Prototypes",

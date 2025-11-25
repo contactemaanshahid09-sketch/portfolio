@@ -12,37 +12,46 @@ const projects = [
   },
   {
     id: 2,
-    title: "MindDrape – Blogging Web App with Firebase",
+    title: "PRS ShopCart – Smart Product Recommendation System",
     description:
-      "Developed MindDrape, a blogging web app using Firebase and JavaScript, featuring user authentication, category-wise browsing, and a responsive UI.",
-    laptopImg: "/portfolio/images/project2-laptop.png",
-    mobileImg: "/portfolio/images/project2-mobile.png",
-    // liveDemoLink: "https://minddrape.example.com",
+      "React-based product recommendation system with smart suggestions, smooth shopping, and dynamic cart management powered by Redux.",
+    laptopImg: "/portfolio/images/project2-laptop.jpeg",
+    mobileImg: "/portfolio/images/project2-mobile.jpeg",
+    liveDemoLink: "https://contactemaanshahid09-sketch.github.io/PRS-ShopCart/",
   },
   {
     id: 3,
-    title: "9T9 Solutions – One-Stop Digital Service Hub",
+    title: "MindDrape – Blogging Web App with Firebase",
     description:
-      "Developed 9T9 Solutions, a multi-service digital solutions platform offering web development, design, video editing, and e-commerce services with a responsive, user-friendly interface.",
+      "Developed MindDrape, a blogging web app using Firebase and JavaScript, featuring user authentication, category-wise browsing, and a responsive UI.",
     laptopImg: "/portfolio/images/project3-laptop.png",
     mobileImg: "/portfolio/images/project3-mobile.png",
-    liveDemoLink: "https://9t9solutions.github.io/9t9solutions/",
+    // liveDemoLink: "https://minddrape.example.com",
   },
   {
     id: 4,
-    title: "Interactive Scrolling Experience",
+    title: "9T9 Solutions – One-Stop Digital Service Hub",
     description:
-      "Created a modern website with stunning scrolling effects, delivering an immersive and visually dynamic user journey.",
+      "Developed 9T9 Solutions, a multi-service digital solutions platform offering web development, design, video editing, and e-commerce services with a responsive, user-friendly interface.",
     laptopImg: "/portfolio/images/project4-laptop.png",
     mobileImg: "/portfolio/images/project4-mobile.png",
-    // liveDemoLink: "https://scrollingexperience.example.com",
+    liveDemoLink: "https://9t9solutions.github.io/9t9solutions/",
   },
   {
     id: 5,
+    title: "Interactive Scrolling Experience",
+    description:
+      "Created a modern website with stunning scrolling effects, delivering an immersive and visually dynamic user journey.",
+    laptopImg: "/portfolio/images/project5-laptop.png",
+    mobileImg: "/portfolio/images/project5-mobile.png",
+    // liveDemoLink: "https://scrollingexperience.example.com",
+  },
+  {
+    id: 6,
     title: "Unique Parallax Scrolling Website",
     description:
       "Developed a unique parallax scrolling website that blends motion and depth, offering a truly eye-catching and innovative browsing experience.",
-    videoSrc: "/portfolio/videos/project5-demo.mp4",
+    videoSrc: "/portfolio/videos/project6-demo.mp4",
     mobileImg: null,
     // liveDemoLink: "https://parallaxscrolling.example.com",
   },
@@ -131,41 +140,3 @@ export default function Portfolio() {
 
 
 
-
-
-
-
-
-
-
-
-// {videoSrc ? (
-//   <a href={liveDemoLink} target="_blank" rel="noopener noreferrer">
-//     <video
-//       src={videoSrc}
-//       autoPlay
-//       loop
-//       muted
-//       playsInline
-//       className="laptop-img"
-//     />
-//   </a>
-// ) : (
-//   <a href={liveDemoLink} target="_blank" rel="noopener noreferrer">
-//     <img
-//       src={laptopImg}
-//       alt={`${title} Laptop View`}
-//       className="laptop-img"
-//     />
-//   </a>
-// )}
-
-// {mobileImg && (
-//   <a href={liveDemoLink} target="_blank" rel="noopener noreferrer">
-//     <img
-//       src={mobileImg}
-//       alt={`${title} Mobile View`}
-//       className="mobile-img"
-//     />
-//   </a>
-// )}
