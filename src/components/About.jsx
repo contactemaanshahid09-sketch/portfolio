@@ -36,7 +36,7 @@ export default function About() {
         </div>
 
         <div className="signature">
-          <p><em>Emaan Shahid  </em> Emaan Shahid, Web & UI/UX Designer</p>
+          <p><em>Emaan Shahid  </em> Web & UI/UX Designer</p>
         </div>
       </div>
     </section>
