@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 const projects = [
   {
     id: 1,
+    displayOrder: 3,
     title: "FlexiBuild – Smart Construction & Interior Design Platform",
     description:
       "Developed FlexiBuild, a construction and interior design platform where users can explore services, get design ideas, and purchase furniture seamlessly.",
@@ -12,6 +13,7 @@ const projects = [
   },
   {
     id: 2,
+    displayOrder: 7,
     title: "PRS ShopCart – Smart Product Recommendation System",
     description:
       "React-based product recommendation system with smart suggestions, smooth shopping, and dynamic cart management powered by Redux.",
@@ -21,6 +23,7 @@ const projects = [
   },
   {
     id: 3,
+    displayOrder: 5,
     title: "MindDrape – Blogging Web App with Firebase",
     description:
       "Developed MindDrape, a blogging web app using Firebase and JavaScript, featuring user authentication, category-wise browsing, and a responsive UI.",
@@ -30,6 +33,7 @@ const projects = [
   },
   {
     id: 4,
+    displayOrder: 6,
     title: "9T9 Solutions – One-Stop Digital Service Hub",
     description:
       "Developed 9T9 Solutions, a multi-service digital solutions platform offering web development, design, video editing, and e-commerce services with a responsive, user-friendly interface.",
@@ -39,6 +43,7 @@ const projects = [
   },
   {
     id: 5,
+    displayOrder: 8,
     title: "Interactive Scrolling Experience",
     description:
       "Created a modern website with stunning scrolling effects, delivering an immersive and visually dynamic user journey.",
@@ -48,6 +53,7 @@ const projects = [
   },
   {
     id: 6,
+    displayOrder: 4,
     title: "Unique Parallax Scrolling Website",
     description:
       "Developed a unique parallax scrolling website that blends motion and depth, offering a truly eye-catching and innovative browsing experience.",
@@ -57,12 +63,23 @@ const projects = [
   },
   {
     id: 7,
+    displayOrder: 1,
     title: "GetVeriSight - AI Content Moderation Platform",
     description:
       "Built a full-stack moderation platform for text, image, and video analysis with JWT authentication, Google sign-in, MongoDB storage, and reviewer-friendly workflows.",
     laptopImg: "/portfolio/images/project7-laptop.PNG",
     mobileImg: "/portfolio/images/project7-mobile.jpeg",
     liveDemoLink: "https://get-veri-sight.vercel.app",
+  },
+  {
+    id: 8,
+    displayOrder: 2,
+    title: "Propel.ai - AI Proposal Generator",
+    description:
+      "Built a full-stack AI proposal generator that turns project briefs, documents, and voice notes into polished business proposals with authentication, MongoDB storage, and automated contact handling.",
+    videoSrc: "/portfolio/videos/project8-demo.mp4",
+    mobileImg: "/portfolio/images/project8-mobile.jpeg",
+    liveDemoLink: "https://proposal-phi-red.vercel.app",
   },
 
 ];
@@ -81,7 +98,16 @@ export default function Portfolio() {
         Some of my projects showcasing development and design work.
       </p>
       <div className={`portfolio-grid ${animate ? "animate-up" : ""}`}>
-        {projects.map(
+        {[...projects].sort((a, b) => {
+          if (a.displayOrder && b.displayOrder) {
+            return a.displayOrder - b.displayOrder;
+          }
+
+          if (a.displayOrder) return 1;
+          if (b.displayOrder) return -1;
+
+          return b.id - a.id;
+        }).map(
           ({
             id,
             title,
