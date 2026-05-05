@@ -55,6 +55,16 @@ const projects = [
     mobileImg: null,
     // liveDemoLink: "https://parallaxscrolling.example.com",
   },
+  {
+    id: 7,
+    title: "GetVeriSight - AI Content Moderation Platform",
+    description:
+      "Built a full-stack moderation platform for text, image, and video analysis with JWT authentication, Google sign-in, MongoDB storage, and reviewer-friendly workflows.",
+    laptopImg: "/portfolio/images/project7-laptop.PNG",
+    mobileImg: "/portfolio/images/project7-mobile.jpeg",
+    liveDemoLink: "https://get-veri-sight.vercel.app",
+  },
+
 ];
 
 export default function Portfolio() {
