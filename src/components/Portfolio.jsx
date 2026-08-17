@@ -79,7 +79,7 @@ const projects = [
       "Built a full-stack AI proposal generator that turns project briefs, documents, and voice notes into polished business proposals with authentication, MongoDB storage, and automated contact handling.",
     videoSrc: "/videos/project8-demo.mp4",
     mobileImg: "/images/project8-mobile.jpeg",
-    liveDemoLink: "https://proposal-phi-red.vercel.app",
+    liveDemoLink: "https://get-veri-sight-portfolio.vercel.app/",
   },
 
 ];
