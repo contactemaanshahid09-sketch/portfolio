@@ -7,8 +7,8 @@ const projects = [
     title: "FlexiBuild – Smart Construction & Interior Design Platform",
     description:
       "Developed FlexiBuild, a construction and interior design platform where users can explore services, get design ideas, and purchase furniture seamlessly.",
-    laptopImg: "/portfolio/images/project1-laptop.jpeg",
-    mobileImg: "/portfolio/images/project1-mobile.jpeg",
+    laptopImg: "/images/project1-laptop.jpeg",
+    mobileImg: "/images/project1-mobile.jpeg",
     liveDemoLink: "https://github.com/contactemaanshahid09-sketch/android",
   },
   {
@@ -17,8 +17,8 @@ const projects = [
     title: "PRS ShopCart – Smart Product Recommendation System",
     description:
       "React-based product recommendation system with smart suggestions, smooth shopping, and dynamic cart management powered by Redux.",
-    laptopImg: "/portfolio/images/project2-laptop.jpeg",
-    mobileImg: "/portfolio/images/project2-mobile.jpeg",
+    laptopImg: "/images/project2-laptop.jpeg",
+    mobileImg: "/images/project2-mobile.jpeg",
     liveDemoLink: "https://contactemaanshahid09-sketch.github.io/PRS-ShopCart/",
   },
   {
@@ -27,8 +27,8 @@ const projects = [
     title: "MindDrape – Blogging Web App with Firebase",
     description:
       "Developed MindDrape, a blogging web app using Firebase and JavaScript, featuring user authentication, category-wise browsing, and a responsive UI.",
-    laptopImg: "/portfolio/images/project3-laptop.png",
-    mobileImg: "/portfolio/images/project3-mobile.png",
+    laptopImg: "/images/project3-laptop.png",
+    mobileImg: "/images/project3-mobile.png",
     // liveDemoLink: "https://minddrape.example.com",
   },
   {
@@ -37,8 +37,8 @@ const projects = [
     title: "9T9 Solutions – One-Stop Digital Service Hub",
     description:
       "Developed 9T9 Solutions, a multi-service digital solutions platform offering web development, design, video editing, and e-commerce services with a responsive, user-friendly interface.",
-    laptopImg: "/portfolio/images/project4-laptop.png",
-    mobileImg: "/portfolio/images/project4-mobile.png",
+    laptopImg: "/images/project4-laptop.png",
+    mobileImg: "/images/project4-mobile.png",
     liveDemoLink: "https://9t9solutions.github.io/9t9solutions/",
   },
   {
@@ -47,8 +47,8 @@ const projects = [
     title: "Interactive Scrolling Experience",
     description:
       "Created a modern website with stunning scrolling effects, delivering an immersive and visually dynamic user journey.",
-    laptopImg: "/portfolio/images/project5-laptop.png",
-    mobileImg: "/portfolio/images/project5-mobile.png",
+    laptopImg: "/images/project5-laptop.png",
+    mobileImg: "/images/project5-mobile.png",
     // liveDemoLink: "https://scrollingexperience.example.com",
   },
   {
@@ -57,7 +57,7 @@ const projects = [
     title: "Unique Parallax Scrolling Website",
     description:
       "Developed a unique parallax scrolling website that blends motion and depth, offering a truly eye-catching and innovative browsing experience.",
-    videoSrc: "/portfolio/videos/project6-demo.mp4",
+    videoSrc: "/videos/project6-demo.mp4",
     mobileImg: null,
     // liveDemoLink: "https://parallaxscrolling.example.com",
   },
@@ -67,8 +67,8 @@ const projects = [
     title: "GetVeriSight - AI Content Moderation Platform",
     description:
       "Built a full-stack moderation platform for text, image, and video analysis with JWT authentication, Google sign-in, MongoDB storage, and reviewer-friendly workflows.",
-    laptopImg: "/portfolio/images/project7-laptop.PNG",
-    mobileImg: "/portfolio/images/project7-mobile.jpeg",
+    laptopImg: "/images/project7-laptop.PNG",
+    mobileImg: "/images/project7-mobile.jpeg",
     liveDemoLink: "https://get-veri-sight.vercel.app",
   },
   {
@@ -77,8 +77,8 @@ const projects = [
     title: "Propel.ai - AI Proposal Generator",
     description:
       "Built a full-stack AI proposal generator that turns project briefs, documents, and voice notes into polished business proposals with authentication, MongoDB storage, and automated contact handling.",
-    videoSrc: "/portfolio/videos/project8-demo.mp4",
-    mobileImg: "/portfolio/images/project8-mobile.jpeg",
+    videoSrc: "/videos/project8-demo.mp4",
+    mobileImg: "/images/project8-mobile.jpeg",
     liveDemoLink: "https://proposal-phi-red.vercel.app",
   },
 
