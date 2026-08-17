@@ -30,7 +30,7 @@ export default function Navbar() {
             <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
           </ul>
           <div className="social-icons-mobile">
-            <a href="#"><FaFacebookF /></a>
+            {/* <a href="#"><FaFacebookF /></a> */}
             <a
               href="https://www.linkedin.com/in/emaan-mehar-b84309360"
               target="_blank"
@@ -52,7 +52,7 @@ export default function Navbar() {
         </ul>
 
         <div className="social-icons">
-          <a href="#"><FaFacebookF /></a>
+          {/* <a href="#"><FaFacebookF /></a> */}
           <a
             href="https://www.linkedin.com/in/emaan-mehar-b84309360"   
             target="_blank"

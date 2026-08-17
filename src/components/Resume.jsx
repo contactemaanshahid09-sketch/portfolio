@@ -24,11 +24,38 @@ export default function Resume() {
             <li>
               <span className="timeline-dot"></span>
               <div>
-                <strong className="timeline-company">Ongoing Internship at Convit Learning Institute</strong>
-                <span className="timeline-date">2025 - Current</span>
+                <strong className="timeline-company">Sublime Tech</strong>
+                <span className="timeline-date">2025 - 2026</span>
+                <div className="timeline-title">MERN Stack Developer & AI Integration Developer</div>
+                <p>
+                  Worked on full-stack web applications using the MERN stack, developing
+                  responsive frontend interfaces, backend APIs, database functionality,
+                  and integrating AI models to enhance application features and automation.
+                </p>
+                <ul className="timeline-details">
+                  <li>
+                    MERN stack development
+                  </li>
+                  <li>
+                    AI model integration
+                  </li>
+                  <li>
+                    International Client Project — UPTIVITY
+                    <p>
+                      (Integrated WhatsApp functionality into UPTIVITY's Senserve CRM, worked on the implementation and development of the WhatsApp-related features.)
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li>
+              <span className="timeline-dot"></span>
+              <div>
+                <strong className="timeline-company">Corvit Learning Institute</strong>
+                <span className="timeline-date">2025</span>
                 <div className="timeline-title">Web Developer & UI/UX Intern</div>
                 <p>
-                  Currently enhancing my expertise in web development and UI/UX through real-world tasks and collaborative projects.
+                  Enhanced my expertise in web development and UI/UX through real-world tasks and collaborative projects.
                 </p>
               </div>
             </li>
@@ -89,7 +116,7 @@ export default function Resume() {
             <li>
               <span className="timeline-dot"></span>
               <div>
-                <strong className="timeline-company">The National School</strong>
+                <strong className="timeline-company">Bahria Foundation School Faisalabad</strong>
                 <span className="timeline-date">2015-2017</span>
                 <div className="timeline-title">Matriculation in Computer Science</div>
                 {/* <p>Secondary alias vitae elit elit dictum rhoncus malesuada tempus.</p> */}

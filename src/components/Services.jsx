@@ -4,6 +4,7 @@ const services = [
   "Responsive Website Development",
   "Custom Web Applications",
   "E-Commerce Websites",
+  "AI Integration & AI-Powered Applications",
   "Modern Website & App UI Design",
   "User-Friendly Wireframes & Prototypes",
 ];

@@ -406,12 +406,12 @@ html {
 .hero-image::before {
   content: "";
   position: absolute;
-  width: min(92%, 310px);
+  width: min(92%, 305px);
   aspect-ratio: 1;
   top: 50%;
   left: 50%;
   border-radius: 50%;
-  background: #dedbd5;
+  background: #ecebe9;
   transform: translate(-50%, -50%);
   z-index: 0;
 }
