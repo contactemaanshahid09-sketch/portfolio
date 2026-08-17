@@ -69,7 +69,7 @@ const projects = [
       "Built a full-stack moderation platform for text, image, and video analysis with JWT authentication, Google sign-in, MongoDB storage, and reviewer-friendly workflows.",
     laptopImg: "/images/project7-laptop.PNG",
     mobileImg: "/images/project7-mobile.jpeg",
-    liveDemoLink: "https://get-veri-sight.vercel.app",
+    liveDemoLink: "https://get-veri-sight-portfolio.vercel.app/",
   },
   {
     id: 8,
@@ -79,7 +79,7 @@ const projects = [
       "Built a full-stack AI proposal generator that turns project briefs, documents, and voice notes into polished business proposals with authentication, MongoDB storage, and automated contact handling.",
     videoSrc: "/videos/project8-demo.mp4",
     mobileImg: "/images/project8-mobile.jpeg",
-    liveDemoLink: "https://get-veri-sight-portfolio.vercel.app/",
+    liveDemoLink: "https://proposal-phi-red.vercel.app/",
   },
 
 ];
