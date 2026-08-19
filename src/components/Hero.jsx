@@ -12,8 +12,7 @@ export default function Hero() {
       <div className={`hero-content ${animate ? "animate-up" : ""}`}>
         <h1>User-Friendly. Impactful. Memorable.</h1>
         <p>
-          Specialized in creating responsive web solutions
-          with a strong focus on UI/UX
+          Specialized in AI integration, intelligent APIs, and automation to build smart, scalable web solutions
         </p>
         <div className="hero-buttons">
           <a href="#portfolio" className="btn-primary">View my work</a>

@@ -45,10 +45,9 @@ export default function Services() {
       </p>
       <div className="services-content">
         <div className="services-left">
-          <h3 className="services-large-title">Creative Web Development & UI/UX Solutions.</h3>
+          <h3 className="services-large-title">AI-Powered Web Development & Intelligent Solutions.</h3>
           <p className="services-paragraph">
-            I offer a wide range of services to help bring your digital projects
-            to life with professional quality and user-oriented design.
+            I offer transform ideas into AI-powered products by integrating intelligent APIs, automation workflows, and modern web technologies into practical applications.
           </p>
         </div>
         <div className="services-right" ref={containerRef}>

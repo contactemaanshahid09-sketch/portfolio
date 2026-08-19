@@ -13,10 +13,9 @@ export default function About() {
 
       <div className={`about-content-center ${animate ? "animate-up" : ""}`}>
         <small className="label">About Me</small>
-        <h3>UI/UX Designer & Web Developer</h3>
+        <h3>AI Integration Developer & Web Developer</h3>
         <p>
-          As a Web Developer and UI/UX enthusiast, 
-          I love building designs that are not only beautiful but also highly functional.
+          As an AI Integration & Web Developer, I love building solutions that are not only intelligent but also highly functional.
         </p>
         <p>
           <b>My goal is to create seamless experiences for users everywhere</b>
@@ -25,8 +24,8 @@ export default function About() {
         <div className="details-card">
           <div>
             <p><strong>Name</strong> Emaan Shahid</p>
-            <p><strong>Age</strong> 23 Years</p>
-            <p><strong>Occupation</strong> Web & UI/UX Designer</p>
+            <p><strong>Age</strong> 24 Years</p>
+            <p><strong>Occupation</strong> AI Integration Developer & Web Developer</p>
           </div>
           <div>
             <p><strong>Phone</strong> +92 321 1393517</p>
@@ -36,7 +35,7 @@ export default function About() {
         </div>
 
         <div className="signature">
-          <p><em>Emaan Shahid  </em> Web & UI/UX Designer</p>
+          <p><em>Emaan Shahid  </em> AI Integration & Web Developer</p>
         </div>
       </div>
     </section>
